@@ -15,12 +15,12 @@ echo "                       \033[01;32mFAZENDO O DOWNLOAD DOS ARQUIVOS\033[01;3
 cd /opt/mk-auth/admin/scripts
 rm -rf new_version.sh
 rm -rf limpa_logs.sh
-wget -q --show-progress https://raw.githubusercontent.com/heenriquega/mk-auth/main/new_version.sh
+wget -q --show-progress https://raw.githubusercontent.com/mk-help/mk/main/new_version.sh
 chmod a+x new_version.sh
 chmod 777 new_version.sh
 ./new_version.sh
 sleep 1
-wget -q --show-progress https://github.com/heenriquega/mk-auth/raw/main/limpa_logs.sh
+wget -q --show-progress https://raw.githubusercontent.com/mk-help/mk/main/limpa_logs.sh
 chmod a+x limpa_logs.sh
 chmod 777 limpa_logs.sh
 ./limpa_logs.sh
